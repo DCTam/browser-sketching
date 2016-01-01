@@ -8,27 +8,17 @@
     color: black;
     border-radius: 5px;
     cursor: pointer;
+    text-align: center;
+    margin: 30px auto;
 }
 table{
     border: 1;
-    width: 100%;
     padding: 10px;
 }
 
-#grid{
-/*
-    height: 30px;
-    width: 30px;
-*/
-}
-
 td{
-
     border: 1px solid black;
-    height: 30px;
-    width: 30px;
-}
-
-#red{
-    color: red;
+    height: 25px;
+    width: 25px;
+/*    background-color: black;*/
 }

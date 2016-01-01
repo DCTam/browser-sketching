@@ -1,15 +1,22 @@
+
 $(document).ready(function() {
     $('#button').on('click',function(){
-       //$('body').append("<p id='red'>hi</p>");
-        //var height = prompt("Select a height");
-        //ar width = prompt("Select a width");
+        var gridSize = prompt("Enter grid size (Put 60 unless you wanna blow your computer up");
+        buildGrid(gridSize);
+    });
     
-        for (var x = 0; x < 10; x++){
-            $('#grid').append("<tr></tr>");
-        }
-        for(var y = 0; y < 10; y++){
-            $('tr').append("<td>hi</td>");
-        }
-
+    $('#grid').on('mouseover', 'td' , function(){
+        $(this).css({"background-color": "black"});
     });
 });
+
+function buildGrid(size){
+    $('table').empty();
+    
+    for (var x = 0; x < size; x++){
+        $('#grid').append("<tr id='grid'></tr>");
+        }
+    for(var y = 0; y < size; y++){
+        $('tr').append("<td id='draw'></td>");
+        }
+}
