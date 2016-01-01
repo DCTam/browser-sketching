@@ -1,0 +1,33 @@
+#button{
+    height: 20px;
+    width:  70px;
+    background-color: aquamarine;
+    margin: 3px 3px 3px 3px;
+    font-weight: bold;
+    font-family: serif;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+table{
+    border: 1;
+    width: 100%;
+    padding: 10px;
+}
+
+#grid{
+/*
+    height: 30px;
+    width: 30px;
+*/
+}
+
+td{
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+}
+
+#red{
+    color: red;
+}
