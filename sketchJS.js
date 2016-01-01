@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
     $('#button').on('click',function(){
-        var gridSize = prompt("Enter grid size (Put 60 unless you wanna blow your computer up");
+        var gridSize = prompt("Enter grid size (Put ~70 unless you wanna blow your computer up");
         buildGrid(gridSize);
     });
     
