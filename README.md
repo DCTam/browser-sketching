@@ -1,3 +1,3 @@
 The Odin Project
 
-Making a browser sketch site
+Making a browser sketch site.
