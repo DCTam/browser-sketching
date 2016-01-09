@@ -20,4 +20,3 @@ function buildGrid(size){
         $('tr').append("<td id='draw'></td>");
         }
 }
-//sa
